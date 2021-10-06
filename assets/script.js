@@ -19,14 +19,14 @@ function generatePassword () {
               while (passwordLength<8 || passwordLength>128) {
                 var passwordLength = prompt("Error: You must enter a password length between 8 and 128 (inclusive):")
               }
-      var lowercase = confirm("Do you want lower case letters in your passowrd?");
+      var lowercase = confirm("Do you want lower case letters in your password?");
       var uppercase = confirm("Do you want upper case letters in your password?");
       var numbers = confirm("Do you want numbers in your password?");
       var special = confirm("Do you want special characters in your password?");
               //check that user has chosen at least one character set for inclusion
               while (lowercase == false && uppercase == false && numbers == false && special == false) {
                 alert("Error: You must select at least one type of character for inclusion");
-                var lowercase = confirm("Do you want lower case letters in your passowrd?");
+                var lowercase = confirm("Do you want lower case letters in your password?");
                 var uppercase = confirm("Do you want upper case letters in your password?");
                 var numbers = confirm("Do you want numbers in your password?");
                 var special = confirm("Do you want special characters in your password?");
