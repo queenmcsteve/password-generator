@@ -15,6 +15,6 @@ If the user selects a length outside of the specified range, or if they fail to 
 The Repo contains the index.html page, a CSS style sheet, a javascript file, and this readme file.
 
 Link to deployed app:
-https://queenmcsteve.github.io/Homework-03/
+https://queenmcsteve.github.io/password-generator/
 Screenshot:
 ![screenshot](./assets/PasswordGenerator_screenshot.jpg)
